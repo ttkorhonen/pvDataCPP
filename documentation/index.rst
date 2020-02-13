@@ -12,5 +12,6 @@ pvData (C++) Library
    :maxdepth: 1
    :caption: pvDataCPP
 
+   api/library_root
    Reference Manual and API Documentation <https://docs.epics-controls.org/projects/pvdata-cpp/en/latest/doxygen>
    Source Code Repository on GitHub <https://github.com/epics-base/pvDataCPP>
