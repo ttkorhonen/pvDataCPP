@@ -35,7 +35,7 @@ extensions = [
 
 # Setup the breathe extension
 breathe_projects = {
-    "pvDataCPP": "./xml"
+    "pvDataCPP": "./documentation/xml"
 }
 
 breathe_default_project = "pvDataCPP"
