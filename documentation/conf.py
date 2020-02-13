@@ -35,7 +35,7 @@ extensions = [
 
 # Setup the breathe extension
 breathe_projects = {
-    "pvDataCPP": "./documentation/xml"
+    "pvDataCPP": "./doxyoutput/xml"
 }
 
 breathe_default_project = "pvDataCPP"
@@ -104,6 +104,5 @@ html_extra_path = ['../html']
 
 
 # -- Run Doxygen ------------------------------------------------------------
-
-import subprocess
-subprocess.call('cd ..; mkdir -p html/doxygen; doxygen', shell=True)
+#import subprocess
+#subprocess.call('cd ..; mkdir -p html/doxygen; doxygen', shell=True)
