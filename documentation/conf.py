@@ -35,7 +35,7 @@ extensions = [
 
 # Setup the breathe extension
 breathe_projects = {
-    "pvDataCPP": "./doxyoutput/xml"
+    "pvDataCPP": "./xml"
 }
 breathe_default_project = "pvDataCPP"
 
@@ -70,9 +70,9 @@ templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # Intersphinx links to subprojects
-intersphinx_mapping = {
-    'how-tos': ('https://docs.epics-controls.org/projects/how-tos/en/latest', None),
-}
+#intersphinx_mapping = {
+#    'how-tos': ('https://docs.epics-controls.org/projects/how-tos/en/latest', None),
+#}
 
 
 # -- Options for HTML output -------------------------------------------------
